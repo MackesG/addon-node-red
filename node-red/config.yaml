@@ -29,6 +29,7 @@ auth_api: true
 uart: true
 full_access: true
 gpio: true
+protected: false
 map:
   - config:rw
   - media:rw
