@@ -27,6 +27,8 @@ homeassistant_api: true
 host_network: true
 auth_api: true
 uart: true
+full_access: true
+gpio: true
 map:
   - config:rw
   - media:rw
