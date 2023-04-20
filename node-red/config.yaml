@@ -30,6 +30,11 @@ uart: true
 full_access: true
 gpio: true
 protected: false
+privileged:
+  - SYS_RAWIO
+devices:
+  - /dev/mem
+apparmor: false
 map:
   - config:rw
   - media:rw
