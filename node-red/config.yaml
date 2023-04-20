@@ -1,7 +1,7 @@
 ---
-name: Node-RED
+name: Node-RED GPIO
 version: dev
-slug: nodered
+slug: noderedgpio
 description: Flow-based programming for the Internet of Things
 url: https://github.com/hassio-addons/addon-node-red
 codenotary: codenotary@frenck.dev
