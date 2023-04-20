@@ -3,7 +3,7 @@ ARG BUILD_FROM=ghcr.io/hassio-addons/base:13.2.1
 FROM ${BUILD_FROM}
 
 # Copy Node-RED package.json
-COPY package.json /opt/
+COPY package.json requirements.txt /opt/
 COPY node-red-dashboard-show-dashboard.patch /tmp/
 
 # Set workdir
@@ -28,6 +28,8 @@ RUN \
         npm=9.1.2-r0 \
         openssh-client=9.1_p1-r2 \
         patch=2.7.6-r9 \
+    \
+    && pip install --no-cache-dir -r /opt/requirements.txt \
     \
     && npm install \
         --no-audit \
