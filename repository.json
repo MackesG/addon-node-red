@@ -1,0 +1,4 @@
+# https://developers.home-assistant.io/docs/add-ons/repository#repository-configuration
+name: Node-Red Plus add-on repository
+url: 'https://github.com/MackesG/addon-node-red'
+maintainer: MackesG 
