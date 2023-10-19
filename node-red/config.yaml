@@ -10,7 +10,7 @@ ingress_port: 0
 ingress_stream: true
 panel_icon: mdi:sitemap
 init: false
-homeassistant: 2021.3.0
+homeassistant: 2023.3.0
 arch:
   - aarch64
   - amd64
@@ -58,7 +58,7 @@ options:
 schema:
   log_level: list(trace|debug|info|notice|warning|error|fatal)?
   credential_secret: password
-  theme: list(default|aurora|cobalt2|dark|dracula|espresso-libre|midnight-red|monoindustrial|monokai|oceanic-next|oled|solarized-dark|solarized-light|tokyo-night|zenburn)?
+  theme: list(default|aurora|cobalt2|dark|dracula|espresso-libre|github-dark|github-dark-default|github-dark-dimmed|midnight-red|monoindustrial|monokai|monokai-dimmed|noctis|oceanic-next|oled|one-dark-pro|one-dark-pro-darker|solarized-dark|solarized-light|tokyo-night|tokyo-night-light|tokyo-night-storm|totallyinformation|zenburn)?
   http_node:
     username: str
     password: password
